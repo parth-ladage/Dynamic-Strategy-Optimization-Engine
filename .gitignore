@@ -1,0 +1,50 @@
+--- System & Environment ---
+
+pycache/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env
+.DS_Store
+
+--- Data & Models (Large Files) ---
+
+We ignore these because they are large and can be regenerated
+
+backend/cache/
+backend/app/ml_models/.pkl
+notebooks/.csv
+data/*.csv
+*.sqlite3
+
+--- IDE & Editor Settings ---
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+--- Frontend (Node/React) ---
+
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+--- Backend (FastAPI/Python) ---
+
+backend/.env
+backend/.pytest_cache/
+backend/coverage/
+backend/htmlcov/
